@@ -9,36 +9,36 @@
     padding: 32px 10px;
     background-color: #333;
     color: white;
-  }
+}
   
-  .navbar a {
+.navbar a {
     color: white;
     text-decoration: none;
     margin: 0 30px;
-  }
-  .brand{
-        font-family: "Nunito Sans", sans-serif;
-        font-size: 20px;
-        font-weight: 900;
-        font-style: normal;
-  }
-  
-  .hamburger {
+}
+.navbar a:hover {
+    color: rgb(150, 187, 124);
+}
+.brand{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+}
+.hamburger {
     margin: 0 15px;
     display: none;
     flex-direction: column;
     cursor: pointer;
-  }
-  
+}
   .hamburger .bar {
     width: 25px;
     height: 3px;
     background-color: white;
     margin: 4px 0;
     transition: 0.4s;
-  }
-  
-  .nav-links {
+}
+.nav-links {
     font-family: "Nunito Sans", sans-serif;
     font-size: 15px;
     font-weight: 600;
@@ -46,13 +46,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
-  
+}
+.title:hover{
+    color: white;
+}
+#title:hover{
+    color: rgb(255, 255, 255);
+}
   @media (max-width: 975px) {
     .hamburger {
       display: flex;
     }
-  
     .nav-links {
       height: auto;
       display: none;

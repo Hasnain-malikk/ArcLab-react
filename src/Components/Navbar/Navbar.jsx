@@ -13,7 +13,8 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link className='brand' to="#">ArcLab.</Link>
+      <Link className='brand' id='title' to="#">ArcLab.</Link>
+
       </div>
       <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
         <div className="bar"></div>
