@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link className='brand' to="#">Hepta</Link>
+        <Link className='brand' to="#">ArcLab.</Link>
       </div>
       <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
         <div className="bar"></div>
@@ -22,10 +22,11 @@ const Navbar = () => {
       </div>
       <div className={`nav-links ${isOpen ? 'open' : ''}`}>
         <Link to="/">Home</Link>
-        <Link to="/hotels">Hotels</Link>
-        <Link to="/aboutus">About Us</Link>
-        <Link to="/gallery">Gallery</Link>
-        <Link to="/news">News</Link>
+        <Link to="/about">About</Link>
+        <Link to="/team">Team</Link>
+        <Link to="/services">Services</Link>
+        <Link to="/project">Project</Link>
+        <Link to="/blog">Blog</Link>
         <Link to="/contact">Contact</Link>
       </div>
     </nav>
