@@ -1,4 +1,313 @@
-.footer{
-    background-color: coral;
-    color: crimson;
+:root {
+    --footer-background: #1A1A1A;
+    --text-color: #FAFBFC;
+    --text-gray: #FEFEFE;
+    --text-heading-gray: #F4F5F6;
+    --text-primary: #FAFBFC;
+    --button-color: #404652;
+    --button-border: #6B707C;
+}
+
+/* html, body } */
+    /* font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    height: 100%;
+    margin: 0; */
+    /* display: flex; */
+    /* flex-direction: column; */
+/* } */
+/* 
+body {
+    background: #FAFBFC;
+} */
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* footer reset */
+/* *, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+footer {
+    background: var(--footer-background);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto; /* Pushes footer to the bottom */
+}
+
+.footer-wrapper {
+    display: flex;
+    background: var(--footer-background);
+    flex-direction: column;
+    max-width: 80rem;
+    padding: 1rem;
+}
+
+/* top section */
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem 0px;
+    justify-content: space-between;
+}
+
+.footer-line {
+    display: block;
+    width: 100%;
+    height: 0.5rem;
+}
+
+/* footer subscribe */
+.footer-subscribe {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    padding: 25px 0 0 80px;
+}
+
+.footer-subscribe > input {
+    font-family: "Nunito Sans", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: grey;
+    padding: 0.5rem 3.75rem 0.5rem 0.75rem;
+    font-weight: 100;
+    border: 1px solid var(--button-border);
+    color: var(--text-color);
+    outline: none;
+    min-height: 2.25rem;
+    background: var(--footer-background);
+    font-size: 1rem;
+    flex: 1 0 120px;
+    border-radius: 0.5rem;
+}
+
+.footer-subscribe > input::placeholder {
+    color: var(--text-color);
+}
+
+.footer-subscribe > button {
+    cursor: pointer;
+    background: var(--button-color);
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.25rem;
+    min-width: 8rem;
+    min-height: 2.25rem;
+    flex: 1 0 5rem;
+    white-space: nowrap;
+    padding: 0.5rem 0.75rem;
+    border: 0;
+    outline: none;
+    border: 1px solid var(--button-border);
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* footer columns */
+.footer-columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    flex: 2 0 14rem;
+    width: 100%;
+    gap: 1rem;
+    padding: 1.5rem 0.5rem 1rem 0.5rem;
+    margin: 0 auto;
+}
+
+.footer-columns ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-columns ul a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.footer-columns ul a:hover {
+    text-decoration: underline;
+}
+
+.footer-columns ul li {
+    margin-bottom: 1rem;
+}
+
+.footer-columns h3 {
+    color: var(--text-primary);
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+}
+
+.footer-centering {
+    margin: 0 auto;
+}
+
+.footer-columns > section {
+    min-width: 16rem;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    gap: 1rem;
+    color: var(--text-color);
+    margin-bottom: 4rem;
+}
+
+.footer-logo svg {
+    stroke: var(--text-color);
+    stroke-width: 8px;
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: var(--text-gray);
+}
+
+.footer-bottom > small {
+    margin: 0 0.25rem;
+}
+
+.footer-headline > h2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 33px;
+    line-height:85px;
+    font-weight: 500;
+    margin: 0;
+    color: var(--text-primary);
+}
+
+.footer-headline > p {
+    color: var(--text-gray);
+    margin: 0.25rem 0 1.25rem 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.footer-line {
+    display: block;
+    min-width: 2.5rem;
+    height: 0.125rem;
+    background: var(--text-gray);
+}
+
+/* socials */
+.social-links {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.social-text {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.social-links img {
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+.social-links ul {
+    display: flex;
+    gap: 0.75rem;
+    list-style-type: none;
+}
+
+/* mobile */
+@media (max-width: 800px) {
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem 0.5rem 2rem 0.5rem;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: space-between;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:600px) {
+    .footer-columns > section {
+        min-width: 16rem;
+    }
+    .footer-bottom > small {
+        padding-bottom: 5px;
+    }
+    
+}
+@media screen and (max-width:460px) {
+    .footer-headline > h2{
+        font-size: 25px;
+        line-height: 65px;
+    }
+    .footer-subscribe{
+        padding: 25px;
+    }
+    
+}
+@media screen and (max-width:370px) {
+    .footer-headline > h2{
+        font-size: 20px;
+        line-height: 65px;
+    }
+    .footer-headline > p {
+        font-size: 10px; 
+    }
+    .footer-wrapper{
+        padding: 0;
+    }
+    
 }

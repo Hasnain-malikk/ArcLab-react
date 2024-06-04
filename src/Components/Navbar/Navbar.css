@@ -2,7 +2,7 @@
 .navbar {
     width: 100%;
     z-index: 2;
-    position: absolute;
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
