@@ -1,18 +1,11 @@
 import React from 'react'
+import Main from '../Components/Main/Main'
 
 const Home = () => {
   return (
-    <div style={{height:"150vh",background:"pink"}}>
-      This is me Home section
-      <div>dadsadasdas</div>
-      <div>dadsadasdas</div>
-      <div>dadsadasdas</div>
-      <div>dadsadasdas</div>
-      <div>dadsadasdas</div>
-      <div>dadsadasdas</div>
-      <div>dadsadasdas</div>
-      <div>dadsadasdas</div>
-      <div>dadsadasdas</div>
+    <div>
+      <Main/>
+      
     </div>
   )
 }
