@@ -2,8 +2,20 @@ import React from 'react'
 import "./Main.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap'
 
 const Main = () => {
+
+  useGSAP(()=>{
+    gsap.from('.content',{
+      y:50,
+      duration:0.5,
+      delay:0.5,
+      opacity:0
+    })
+  })
+
   return (
     <div className='main'>
       <div className="content">
