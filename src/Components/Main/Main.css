@@ -109,3 +109,74 @@
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width:500px) {
+    .main{
+        height: 100vh;
+    }
+    .content{
+        height: 43%;
+        width: 100%;
+        margin: 0;
+    }
+    .h1{
+        font-size: 50px;
+    }
+    .main-paragraph{
+        font-size: 15px;
+    }
+    .btn2{
+        width: 55%;
+    }
+    .play{
+        width: 23%;
+    }
+    .btn1 button{
+        font-size: 12px;
+    }
+    .watch{
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+    .main-btn{
+        height: 14%;
+    }
+    .watch{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:420px) {
+    .main-paragraph{
+        font-size: 13px;
+    }
+    .h1{
+        font-size: 45px;
+    }
+    .btn1 button {
+        width: 100%;
+    }
+    .main-btn{
+        gap: 15px;
+    }
+    
+}
+@media screen and (max-width:390px) {
+    .watch{
+        font-size: 13px;
+    }
+    .main-heading{
+        height: 45%;
+    }
+    .main-para{
+        height: 23%;
+    }
+    .main-paragraph{
+        display: flex;
+        align-items: center;
+    }
+    .main-btn{
+        height: 15%;
+    }
+    .btn1 button{
+        font-size: 10px;
+    }
+}
