@@ -1,9 +1,10 @@
 import React from 'react'
+import Main2 from '../Components/Main/Main2'
 
 const About = () => {
   return (
     <div>
-      This is me About section
+      <Main2/>
     </div>
   )
 }

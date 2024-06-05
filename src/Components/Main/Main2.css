@@ -1,0 +1,6 @@
+.main2{
+    height: 120vh;
+    background-image: url(/src/assets/bg-2.webp);
+    background-position: center;
+    background-size: cover;
+}
