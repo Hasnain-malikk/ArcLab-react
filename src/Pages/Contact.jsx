@@ -1,9 +1,10 @@
 import React from 'react'
+import Main2 from '../Components/Main/Main2'
 
 const Contact = () => {
   return (
     <div>
-      This is me Contact section
+      <Main2/>
     </div>
   )
 }

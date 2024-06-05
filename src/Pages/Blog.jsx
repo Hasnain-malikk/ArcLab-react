@@ -1,9 +1,10 @@
 import React from 'react'
+import Main2 from '../Components/Main/Main2'
 
 const Blog = () => {
   return (
     <div>
-      This is me Blog section
+      <Main2/>
     </div>
   )
 }

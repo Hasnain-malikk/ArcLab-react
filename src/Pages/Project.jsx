@@ -1,9 +1,10 @@
 import React from 'react'
+import Main2 from '../Components/Main/Main2'
 
 const Project = () => {
   return (
     <div>
-      This is me Project section
+      <Main2/>
     </div>
   )
 }
