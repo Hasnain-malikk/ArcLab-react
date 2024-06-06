@@ -10,7 +10,7 @@ const Main = () => {
   useGSAP(()=>{
     gsap.from('.content',{
       y:50,
-      duration:0.5,
+      duration:0.4,
       delay:0.5,
       opacity:0
     })
