@@ -7,18 +7,18 @@
     align-items: flex-end;
 }
 .main2-content{
-    background-color: darkgoldenrod;
+    /* background-color: darkgoldenrod; */
     height: 20%;
     width: 30%;
     margin: 0 0 85px 70px;
 }
 .main2-breadcrumb{
-    background-color: aquamarine;
-    height: 30%;
+    /* background-color: aquamarine; */
+    height: 27%;
     width: 100%;
 }
 .main2-heading{
-    background-color: darkslateblue;
+    /* background-color: darkslateblue; */
     height: 70%;
     width: 100%;
     font-size: 60px;
@@ -28,6 +28,10 @@
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+}
+.link:hover{
+    color: rgb(150, 187, 124);
 }
 .greater{
     color: rgb(150, 187, 124);
