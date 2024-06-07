@@ -26,7 +26,7 @@
 }
 .link{
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.7);
 }
@@ -38,4 +38,20 @@
     margin: 1px 5px;
     width: 10px;
     height: 13px;
+}
+@media screen and (max-width:500px) {
+    .main2-content{
+        width: 100%;
+        margin-left: 45px;
+    }
+    .main2{
+        height: 60vh;
+    }
+    .link{
+        font-size: 12px;
+    }
+    .main2-heading{
+        font-size: 45px;
+    }
+    
 }
