@@ -1,0 +1,77 @@
+.form{
+    background-color: blanchedalmond;
+    height: 115vh;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.form-text{
+    background-color: chartreuse;
+    height: 100%;
+    width: 35%;
+}
+.form-pic{
+    background-color: darkolivegreen;
+    height: 100%;
+    width: 25.5%;
+}
+.form-contact{
+    background-color: darkorchid;
+    height: 100%;
+    width: 25.5%;
+    background-image: url(/src/assets/form-back.webp);
+    background-position: center;
+    background-size: cover;
+}
+.form-heading{
+    background-color: crimson;
+    width: 90%;
+    height: auto;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 35px 0;
+}
+.form-para1,.form-para2{
+    background-color: cornflowerblue;
+    width: 90%;
+    height: auto;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(102, 102, 102);
+    line-height: 29px;
+    margin: 20px 0;
+}
+.form-pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width:500px) {
+    .form{
+        height: 300vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-pic{
+        width: 93%;
+    }
+    .form-contact{
+        width: 93%;
+    }
+    .form-text{
+        height: auto;
+        width: 93%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-heading{
+        font-size: 45px;
+        margin: 15px 0;
+    }
+    .form-para1,.form-para2{
+        margin: 15px 0;
+    }
+    
+}
