@@ -1,15 +1,9 @@
 .card{
     background-color: pink;
-    height: 70vh;
+    height: 65vh;
     display: flex;
 }
-.c1{
-    background-color: green;
-    height: 100%;
-    width: 25%;
-}
 .c2{
-    background-color: aqua;
     height: 100%;
     width: 25%;
     display: flex;
@@ -17,28 +11,52 @@
     flex-direction: column;
 }
 .card-pic{
-    background-color: brown;
-    height: 25%;
+    /* background-color: brown; */
+    height: 28%;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
-.card-pic img{
-    height: 100%;
+.icon{
+    height: 95%;
     width:31%;
-    object-fit: cover;
+    color: white;
 }
 .card-title{
-    background-color: blueviolet;
-    height: 15%;
+    /* background-color: blueviolet; */
+    height: 25%;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 .card-paragraph{
-    background-color: chocolate;
+    /* background-color: chocolate; */
     height: 40%;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 0 50px;
+}
+#a{
+    background-color: #96BB7C;
+}
+#b{
+    background-color: #8dbd6b;
+    }
+    #c{
+    background-color: #8eb672;
+}
+#d{
+    background-color: #96BB7C;
 }
 @media screen and (max-width:500px) {
     .card{
         flex-direction: column;
-        height: 230vh;
+        height: 190vh;
     }
     .c1,.c2{
         width: 100%;
