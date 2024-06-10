@@ -116,9 +116,19 @@
     cursor: pointer;
 }
 .inpt{
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 400;
     height: 15%;
     width: 90%;
+    border: none;
+    opacity: 0.3;
+    border-bottom: 1px solid rgb(184, 0, 0) ;
+}
+.inpt:focus,
+.inpt:focus-visible {
+    border-bottom: 1px solid rgb(0, 0, 0) ;
+    border: none; /* Ensures no border is shown when the element is focused */
+    outline: none; /* Ensures no outline is shown when the element is focus-visible */
 }
 @media screen and (max-width:500px) {
     .form{
