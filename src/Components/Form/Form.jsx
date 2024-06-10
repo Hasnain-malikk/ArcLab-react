@@ -13,7 +13,22 @@ const Form = () => {
       <div className="form-pic">
         <img src={formPic} alt="" />
       </div>
-      <div className="form-contact"></div>
+      <div className="form-contact">
+        <div className="form-head">
+          <div className="normal">BE PART OF OUR BUSINESS</div>
+          <div className="bold">Request A Quote</div>
+        </div>
+        <div className="form-box">
+          <input className='inpt' type="text" />
+          <input className='inpt' type="text" />
+          <input className='inpt' type="text" />
+          <input className='inpt' type="text" />
+          <input className='inpt' type="text" />
+        </div>
+        <div className="form-btn">
+          <button>Request A Quote</button>
+        </div>
+      </div>
     </div>
   )
 }

@@ -16,12 +16,26 @@
     width: 25.5%;
 }
 .form-contact{
-    background-color: darkorchid;
+    position: relative;
     height: 100%;
     width: 25.5%;
     background-image: url(/src/assets/form-back.webp);
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-contact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #96bb7c8c; /* Green color with 50% opacity */
+    z-index: 1; /* Ensure the overlay is above the background image */
 }
 .form-heading{
     background-color: crimson;
@@ -45,6 +59,66 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.form-head{
+    background-color: brown;
+    height: 15%;
+    width: 100%;
+    z-index: 2;
+}
+.form-box{
+    background-color: gainsboro;
+    height: 55%;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.form-btn{
+    background-color: dodgerblue;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.normal{
+    background-color: darkgray;
+    height: 50%;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}
+.bold{
+    background-color: cadetblue;
+    height: 50%;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.form-btn button{
+    background-color: #96BB7C;
+    height: 90%;
+    width: 70%;
+    border: 0;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.inpt{
+    font-size: 20px;
+    height: 15%;
+    width: 90%;
 }
 @media screen and (max-width:500px) {
     .form{
