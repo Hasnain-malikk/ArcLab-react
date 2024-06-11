@@ -19,11 +19,11 @@ const Form = () => {
           <div className="bold">Request A Quote</div>
         </div>
         <div className="form-box">
-          <input className='inpt' type="text" />
-          <input className='inpt' type="text" />
-          <input className='inpt' type="text" />
-          <input className='inpt' type="text" />
-          <input className='inpt' type="text" />
+          <input className='inpt' type="text" placeholder='First Name' />
+          <input className='inpt' type="text" placeholder='Last Name' />
+          <input className='inpt' type="text" placeholder='Select Your Services' />
+          <input className='inpt' type="text" placeholder='Phone' />
+          <input className='inpt' type="text" placeholder='Message' />
         </div>
         <div className="form-btn">
           <button>Request A Quote</button>
