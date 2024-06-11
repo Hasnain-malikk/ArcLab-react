@@ -10,7 +10,7 @@ const Home = () => {
       <Main/>
       <Card/>
       <Form/>
-      <hr style={{display:"inline-block", height:"70px"}}/>
+      {/* <hr style={{display:"inline-block", height:"70px"}}/> */}
       <Counter/>
 
     </div>

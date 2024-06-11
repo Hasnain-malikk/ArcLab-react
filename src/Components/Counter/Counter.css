@@ -1,3 +1,36 @@
 .counter{
     background-color: blueviolet;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.counter-box{
+    background-color: coral;
+    height: 50%;
+    width: 20%;
+    display: flex;
+    border-left: 1px solid rgba(0, 0, 0, 0.07);
+}
+.counter-up{
+    color: rgb(150, 187, 124);
+    background-color: hotpink;
+    height: 100%;
+    width: 53%;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.counter-text{
+    background-color: deeppink;
+    height: 100%;
+    width: 47%;
+    font-size: 14px;
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+   padding-left: 15px;
+
 }
