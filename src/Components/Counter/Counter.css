@@ -1,20 +1,21 @@
 .counter{
-    background-color: blueviolet;
+    margin: 25px;
+    /* background-color: blueviolet; */
     height: 50vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 .counter-box{
-    background-color: coral;
+    /* background-color: coral; */
     height: 50%;
     width: 20%;
     display: flex;
-    border-left: 1px solid rgba(0, 0, 0, 0.07);
+    border-right: 1px solid rgba(0, 0, 0, 0.07);
 }
 .counter-up{
     color: rgb(150, 187, 124);
-    background-color: hotpink;
+    /* background-color: hotpink; */
     height: 100%;
     width: 53%;
     font-size: 50px;
@@ -23,7 +24,7 @@
     align-items: center;
 }
 .counter-text{
-    background-color: deeppink;
+    /* background-color: deeppink; */
     height: 100%;
     width: 47%;
     font-size: 14px;
@@ -31,6 +32,27 @@
     color:rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: center;
-   padding-left: 15px;
+    padding-left: 15px;
+}
+#counter-c{
+    width: 85%;
+}
+#counter-d{
+    width: 100%;
+    padding: 0 55px 0 0;
+}
+@media screen and (max-width:500px) {
+    .counter{
+        flex-direction: column;
+        padding: 20px 0;
+        margin: 0;
 
+    }
+    .counter-box{
+        width: 62%;
+        border: none;
+        margin: 10px 0;
+        
+    }
+    
 }

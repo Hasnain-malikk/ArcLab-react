@@ -3,6 +3,7 @@ import Main from '../Components/Main/Main'
 import Card from '../Components/Card/Card'
 import Form from '../Components/Form/Form'
 import Counter from '../Components/Counter/Counter'
+import Projects from '../Components/Projects/Projects'
 
 const Home = () => {
   return (
@@ -10,8 +11,8 @@ const Home = () => {
       <Main/>
       <Card/>
       <Form/>
-      {/* <hr style={{display:"inline-block", height:"70px"}}/> */}
       <Counter/>
+      <Projects/>
 
     </div>
   )

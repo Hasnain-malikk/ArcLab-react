@@ -28,7 +28,6 @@ const Counter = () => {
           start={0}
           end={1000}
           duration={5}
-          delay={2}
           />
           )}
     </div></div>
@@ -39,10 +38,9 @@ const Counter = () => {
         <div className="counter-up"><div className="counter-start" ref={ref}>
       {inView && (
           <CountUp
-          start={0}
-          end={1000}
+          start={41}
+          end={2500}
           duration={5}
-          delay={2}
           />
           )}
     </div></div>
@@ -53,28 +51,26 @@ const Counter = () => {
         <div className="counter-up"><div className="counter-start" ref={ref}>
       {inView && (
           <CountUp
-          start={0}
-          end={1000}
+          start={23}
+          end={500}
           duration={5}
-          delay={2}
           />
           )}
     </div></div>
-        <div className="counter-text">LICENSED
+        <div className="counter-text" id='counter-c' >LICENSED
         ARCHITECT</div>
     </div>
     <div className="counter-box">
         <div className="counter-up"><div className="counter-start" ref={ref}>
       {inView && (
           <CountUp
-          start={0}
-          end={1000}
+          start={12}
+          end={67}
           duration={5}
-          delay={2}
           />
           )}
     </div></div>
-        <div className="counter-text">HAPPY
+        <div className="counter-text" id='counter-d' >HAPPY
         CUSTOMERS</div>
     </div>
     
