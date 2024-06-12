@@ -4,7 +4,7 @@
 }
 .projects-heading{
     background-color: burlywood;
-    height: 23%;
+    height: 21%;
 }
 .projects-1{
     background-color: crimson;
@@ -37,4 +37,16 @@
     display: flex;
     /* align-items: center; */
     justify-content: center;
+}
+@media screen and (max-width:500px) {
+    .projects-main-head{
+        font-size: 28px;
+    }
+    .projects-heading{
+        height: 7%;
+    }
+    .projects-head{
+        height: 35%;
+    }
+    
 }

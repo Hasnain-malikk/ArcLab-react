@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Projects.css"
+import Project1 from './Project1'
 
 const Projects = () => {
   return (
@@ -12,7 +13,7 @@ const Projects = () => {
         </div>
         <div className="projects-main-head">Our Unique Latest Projects</div>
       </div>
-      <div className="projects-1"></div>
+      <Project1/>
     </div>
   )
 }
