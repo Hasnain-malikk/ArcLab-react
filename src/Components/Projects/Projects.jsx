@@ -4,6 +4,7 @@ import Project1 from './Project1'
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from 'gsap';
+import Project2 from './Project2';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -35,6 +36,7 @@ const Projects = () => {
         <div className="projects-main-head">Our Unique Latest Projects</div>
       </div>
       <Project1/>
+      <Project2/>
     </div>
   )
 }
