@@ -1,4 +1,4 @@
-.project{
+.project3{
     /* background-color: coral; */
     height: 115vh;
     display: flex;
@@ -6,17 +6,17 @@
     justify-content: space-evenly;
     margin: 40px 0;
 }
-.project1-pic{
+.project3-pic{
     /* background-color: yellow; */
     height: 90%;
     width: 40%;
 }
-.project1-pic img{
+.project3-pic img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-.project1-text{
+.project3-text{
     /* background-color: yellowgreen; */
     height: 75%;
     width: 44%;
@@ -26,7 +26,7 @@
     position: relative; 
 }
 
-.project1-bar{
+.project3-bar{
     margin: 27px -145px;
     content: '';
     width: 150px;
@@ -35,11 +35,11 @@
     transition: width 0.3s ease; 
 }
 
-.project1-text:hover .project1-bar {
+.project3-text:hover .project3-bar {
     width: 200px;
 }
 
-.project1-name{
+.project3-name{
     cursor: pointer;
     /* background-color: aquamarine; */
     height: 7%;
@@ -50,7 +50,7 @@
     align-items: center;
 }
 
-.project1-heading{
+.project3-heading{
     cursor: pointer;
     /* background-color: darkred; */
     height: 15%;
@@ -60,7 +60,7 @@
     align-items: center;
 }
 
-.project1-para{
+.project3-para{
     margin: 6px 0;
     cursor: pointer;
     /* background-color: darkslateblue; */
@@ -73,7 +73,7 @@
     align-items: center;
 }
 
-.project1-portfolio{
+.project3-portfolio{
     cursor: pointer;
     /* background-color: gold; */
     height: 7%;
@@ -85,33 +85,33 @@
     align-items: center;
 }
 @media screen and (max-width:500px) {
-    .project{
+    .project3{
         flex-direction: column;
     }
-    .project1-pic{
+    .project3-pic{
         width: 90%;
     }
-    .project1-text{
+    .project3-text{
         height: 70%;
         width: 90%;
         justify-content: flex-start;
         margin-bottom: -50px;
     }
-    .project1-name{
+    .project3-name{
         height: 10%;
         margin-top: 50px;
     }
-    .project1-heading{
+    .project3-heading{
         height: 13%;
         font-size: 35px;
     }
-    .project1-para{
+    .project3-para{
         height: 30%;
     }
-    .project1-portfolio{
+    .project3-portfolio{
         height: 11%;
     }
-    .project1-bar{
+    .project3-bar{
         display: none;
     }
 }

@@ -7,7 +7,7 @@ import proj1 from '/ReactJs/arclab-react/src/assets/project1.webp'
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Project1 = ({name,heading,pic}) => {
+const Project1 = () => {
 
   useGSAP(()=>{
     gsap.from('.project1-text',{
