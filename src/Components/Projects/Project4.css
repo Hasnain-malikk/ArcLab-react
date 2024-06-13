@@ -1,0 +1,36 @@
+.project4{
+    height: 115vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px 0;
+}
+.project4-text{
+    /* background-color: yellowgreen; */
+    align-items: flex-end;
+    text-align: right;
+    height: 75%;
+    width: 44%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative; 
+}
+.project4-text:hover .project1-bar {
+    width: 200px;
+}
+@media screen and (max-width:500px) {
+    .project4{
+        flex-direction: column-reverse;
+        /* background-color: rgba(211, 211, 211, 0.247); */
+    }
+    .project4-text{
+        height: 70%;
+        width: 90%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        margin-bottom: -50px;
+    }
+    
+}

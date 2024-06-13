@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from 'gsap';
 import Project2 from './Project2';
 import Project3 from './Project3';
+import Project4 from './Project4';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -39,6 +40,7 @@ const Projects = () => {
       <Project1/>
       <Project2/>
       <Project3/>
+      <Project4/>
     </div>
   )
 }
