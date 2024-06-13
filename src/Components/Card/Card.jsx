@@ -16,8 +16,8 @@ const Card = () => {
     useGSAP(()=>{
         gsap.from('.effect1',{
           y:50,
-          duration:0.35,
-          delay:0.3,
+          duration:0.3,
+          delay:0.23,
           opacity:0,
           scrollTrigger:{
             trigger:".effect1",
@@ -30,8 +30,8 @@ const Card = () => {
       useGSAP(()=>{
         gsap.from('.effect2',{
           y:50,
-          duration:0.35,
-          delay:0.35,
+          duration:0.3,
+          delay:0.28,
           opacity:0,
           scrollTrigger:{
             trigger:".effect2",
@@ -44,8 +44,8 @@ const Card = () => {
       useGSAP(()=>{
         gsap.from('.effect3',{
           y:50,
-          duration:0.35,
-          delay:0.4,
+          duration:0.3,
+          delay:0.33,
           opacity:0,
           scrollTrigger:{
             trigger:".effect3",
