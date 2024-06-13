@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Project2.css"
-import proj2 from "/ReactJs/arclab-react/src/assets/project2.webp"
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from 'gsap';
+import proj2 from "/ReactJs/arclab-react/src/assets/project2.webp"
 
 gsap.registerPlugin(ScrollTrigger);
 
