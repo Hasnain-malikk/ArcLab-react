@@ -3,11 +3,10 @@ import './Project1.css'
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from 'gsap';
-import proj1 from '/ReactJs/arclab-react/src/assets/project1.webp'
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Project1 = () => {
+const Project1 = ({name,heading,pic}) => {
 
   useGSAP(()=>{
     gsap.from('.project1-text',{
@@ -27,12 +26,12 @@ const Project1 = () => {
   return (
     <div className='project'>
       <div className="project1-pic">
-        <img src={proj1} alt="" />
+        <img src={pic} alt="" />
       </div>
       <div className="project1-text">
         <div className="project1-bar"></div>
-        <div className="project1-name">{"EXTERIOR {12/07/2020}"}</div>
-        <div className="project1-heading">Geometric Building</div>
+        <div className="project1-name">{name}</div>
+        <div className="project1-heading">{heading}</div>
         <div className="project1-para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</div>
         <div className="project1-portfolio">VIEW PORTFOLIO</div>
       </div>

@@ -5,6 +5,7 @@ import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from 'gsap';
 import Project2 from './Project2';
+import proj1 from '/ReactJs/arclab-react/src/assets/project1.webp'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -35,7 +36,7 @@ const Projects = () => {
         </div>
         <div className="projects-main-head">Our Unique Latest Projects</div>
       </div>
-      <Project1/>
+      <Project1 name="EXTERIOR {12/07/2020}" heading="Geometric Building" pic={proj1} />
       <Project2/>
     </div>
   )

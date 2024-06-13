@@ -1,8 +1,29 @@
 import React from 'react'
 import "./Project2.css"
 import proj2 from "/ReactJs/arclab-react/src/assets/project2.webp"
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import gsap from 'gsap';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Project2 = () => {
+
+    useGSAP(()=>{
+        gsap.from('.project2-text',{
+          y:50,
+          duration:0.35,
+          delay:0.3,
+          opacity:0,
+          scrollTrigger:{
+            trigger:".project2-text",
+            scroller:"body",
+            // markers:true,
+            start:"top 92%"
+          }
+        })
+      })
+
   return (
     <div className='project2'>
     <div className="project2-text">
