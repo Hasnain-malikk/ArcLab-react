@@ -5,6 +5,7 @@ import Form from '../Components/Form/Form'
 import Counter from '../Components/Counter/Counter'
 import Projects from '../Components/Projects/Projects'
 
+
 const Home = () => {
   return (
     <div>
@@ -13,6 +14,8 @@ const Home = () => {
       <Form/>
       <Counter/>
       <Projects/>
+      {/* <Testimonial/> */}
+      {/* <Carousel/> */}
 
     </div>
   )

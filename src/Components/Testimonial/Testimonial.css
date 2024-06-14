@@ -1,0 +1,51 @@
+/* .testimonial{
+    background-color: brown;
+    height: 60vh;
+    padding: 25px 40px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-backface-hidden .swiper-slide{
+    height: 230px;
+    width: 370px;
+  }
+  .commas{
+    background-color: aliceblue;
+    height: 10%;
+  }
+  .review{
+    background-color: aqua;
+    height: 40%;
+  }
+  .person{
+    background-color: bisque;
+    height: 30%;
+  }
+  @media screen and (max-width:500px) {
+    .swiper-slide .swiper-slide-active{
+        width: 100%;
+    }
+    .testimonial{
+        height: 37vh;
+    }
+    
+  } */
