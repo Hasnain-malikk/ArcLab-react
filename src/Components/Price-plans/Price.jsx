@@ -5,8 +5,71 @@ import pic2 from '/ReactJs/arclab-react/src/assets/project2.webp'
 import pic3 from '/ReactJs/arclab-react/src/assets/project3.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap';
 
 const Price = () => {
+
+    useGSAP(()=>{
+        gsap.from('.pap',{
+          y:50,
+          duration:0.35,
+          delay:0.32,
+          opacity:0,
+          scrollTrigger:{
+            trigger:".pap",
+            scroller:"body",
+            // markers:true,
+            start:"top 92%"
+          }
+        })
+      })
+
+      useGSAP(()=>{
+        gsap.from('.b1',{
+          y:50,
+          duration:0.35,
+          delay:0.32,
+          opacity:0,
+          scrollTrigger:{
+            trigger:".b1",
+            scroller:"body",
+            // markers:true,
+            start:"top 92%"
+          }
+        })
+      })
+
+      useGSAP(()=>{
+        gsap.from('.b2',{
+          y:50,
+          duration:0.35,
+          delay:0.34,
+          opacity:0,
+          scrollTrigger:{
+            trigger:".b2",
+            scroller:"body",
+            // markers:true,
+            start:"top 92%"
+          }
+        })
+      })
+
+      useGSAP(()=>{
+        gsap.from('.b3',{
+          y:50,
+          duration:0.35,
+          delay:0.36,
+          opacity:0,
+          scrollTrigger:{
+            trigger:".b3",
+            scroller:"body",
+            // markers:true,
+            start:"top 92%"
+          }
+        })
+      })
+
   return (
     <div className='price' >
       <div className="projects-heading pap">
@@ -18,7 +81,7 @@ const Price = () => {
         <div className="projects-main-head">&nbsp;&nbsp;&nbsp;&nbsp;Price & Plans</div>
       </div>
       <div className="price-card">
-        <div className="price-card-body">
+        <div className="price-card-body b1">
         <div className="price-card-img">
             <img src={pic1} alt="" />
         </div>
@@ -51,7 +114,7 @@ const Price = () => {
             </div>
         </div>
         </div>
-        <div className="price-card-body">
+        <div className="price-card-body b2">
         <div className="price-card-img">
             <img src={pic2} alt="" />
         </div>
@@ -84,7 +147,7 @@ const Price = () => {
             </div>
         </div>
         </div>
-        <div className="price-card-body">
+        <div className="price-card-body b3">
         <div className="price-card-img">
             <img src={pic3} alt="" />
         </div>

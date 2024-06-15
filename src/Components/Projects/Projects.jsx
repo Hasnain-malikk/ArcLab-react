@@ -14,13 +14,13 @@ gsap.registerPlugin(ScrollTrigger);
 const Projects = () => {
 
   useGSAP(()=>{
-    gsap.from('.projects-heading',{
+    gsap.from('.tgr',{
       y:50,
       duration:0.35,
       delay:0.3,
       opacity:0,
       scrollTrigger:{
-        trigger:".projects-heading",
+        trigger:".tgr",
         scroller:"body",
         // markers:true,
         start:"top 92%"
@@ -30,7 +30,7 @@ const Projects = () => {
 
   return (
     <div className='projects'>
-      <div className="projects-heading">
+      <div className="projects-heading tgr">
         <div className="projects-head">
             <div className="line"></div>
             <span className="main1">PROJECTS</span>
