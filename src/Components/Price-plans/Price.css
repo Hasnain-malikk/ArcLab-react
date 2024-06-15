@@ -1,0 +1,127 @@
+.price{
+    background-color: #FCFCFC;
+    height: 140vh;
+}
+.price-card{
+    background-color: #FCFCFC;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.price-card-body{
+    box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    height: 90%;
+    width: 30%;
+}
+.price-card-body:hover{
+    box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.4);
+}
+.price-card-img{
+    /* background-color: darkgrey; */
+    height: 47%;
+}
+.price-card-text{
+    background-color: white;
+    height: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price-card-btn{
+    background-color: #F8F9FA;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.price-card-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.p1{
+    /* background-color: darkgreen; */
+    height: 20%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.fa-icon{
+    color: #96BB7C;
+    margin: 0 8px;
+}
+.gs-btn{
+    width: 55%;
+    height: 88%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gs-price{
+    margin: 0 0 0 23px;
+    width: 35%;
+    height: 88%;
+    /* background-color: deeppink; */
+    display: flex;
+}
+.gs-btn button {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #96BB7C;
+    color: white;
+    border: none;
+    height: 90%;
+    width: 90%;
+    border-radius: 3px;
+}
+#cy{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+#p{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 4px 2px;
+}
+#t{
+    margin-top: 33px;
+}
+.pap{
+    margin: 110px 0 30px 0;
+}
+
+@media screen and (max-width:500px) {
+    .price{
+        height: 270vh;
+    }
+    .price-card{
+        flex-direction: column;
+        gap: 60px;
+        height: 90%;
+        padding: 10px;
+    }
+    .price-card-body{
+        width: 90%;
+        height: 85%;
+    }
+    .price-card-img{
+        height: 50%;
+    }
+    .price-card-btn{
+        height: 12%;
+    }
+    .gs-price{
+        height: 75%;
+    }
+    .gs-btn{
+        height: 80%;
+    }
+    
+}

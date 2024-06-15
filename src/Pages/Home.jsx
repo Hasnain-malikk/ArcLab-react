@@ -4,6 +4,7 @@ import Card from '../Components/Card/Card'
 import Form from '../Components/Form/Form'
 import Counter from '../Components/Counter/Counter'
 import Projects from '../Components/Projects/Projects'
+import Price from '../Components/Price-plans/Price'
 
 
 const Home = () => {
@@ -14,9 +15,8 @@ const Home = () => {
       <Form/>
       <Counter/>
       <Projects/>
-      {/* <Testimonial/> */}
-      {/* <Carousel/> */}
-
+      <Price/>
+    
     </div>
   )
 }
