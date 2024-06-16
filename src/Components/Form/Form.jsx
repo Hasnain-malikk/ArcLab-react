@@ -48,21 +48,7 @@ const Form = () => {
       }
     })
   })
-  // useGSAP(()=>{
-  //   gsap.from('.form-head',{
-  //     y:50,
-  //     duration:0.35,
-  //     delay:0.3,
-  //     opacity:0,
-  //     scrollTrigger:{
-  //       trigger:".form-box",
-  //       scroller:"body",
-  //       // markers:true,
-  //       start:"top 92%"
-  //     }
-  //   })
-  // })
-
+ 
   return (
     <div className='form'>
       <div className="form-text">
