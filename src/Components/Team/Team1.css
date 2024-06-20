@@ -21,6 +21,36 @@
     justify-content: flex-end;
     flex-direction: column;
 }
+.person-img1{
+    background-image: url(/src//assets/team2.jpg);
+    background-position: top;
+    background-size: cover;
+    /* background-color: darkorchid; */
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.person-img2{
+    background-image: url(/src//assets/team3.jpg);
+    background-position: top;
+    background-size: cover;
+    /* background-color: darkorchid; */
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.person-img3{
+    background-image: url(/src//assets/team4.jpg);
+    background-position: top;
+    background-size: cover;
+    /* background-color: darkorchid; */
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
 .person-job{
     display: flex;
     align-items: center;
@@ -50,14 +80,11 @@
 .team1-name{
     color: white;
     cursor: pointer;
-    transition: color 0.2s ease-in-out;
+    transition: color 0.15s ease-in-out;
 }
 .team1-name:hover{
     color: black;
 }
-/* .first-name:hover,.last-name:hover{
-    color: black;
-} */
 @media screen and (max-width:500px) {
     .team1{
         flex-direction: column;
