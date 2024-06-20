@@ -82,9 +82,6 @@ const Card = () => {
             // end:"top 50%",
             // pin:true
             // scrub:2
-
-
-
           }
         })
       })

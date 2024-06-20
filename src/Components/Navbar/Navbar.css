@@ -19,6 +19,9 @@
 .navbar a:hover {
     color: rgb(150, 187, 124);
 }
+.navbar a:focus-within{
+  color: rgb(150, 187, 124);
+}
 .brand{
     font-family: "Nunito Sans", sans-serif;
     font-size: 20px;

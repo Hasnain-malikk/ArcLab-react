@@ -17,6 +17,22 @@ const Main2 = ({heading,page}) => {
     })
   })
 
+  // useGSAP(()=>{
+  //   gsap.to(".main2",{
+  //     height:"100vh",
+  //     // duration:1,
+  //     scrollTrigger:{
+  //       trigger:".form",
+  //       scroller:"body",
+  //       markers:true,
+  //       start:"top 80%",
+  //       // end:"top 50%",
+  //       // pin:true
+  //       // scrub:2
+  //     }
+  //   })
+  // })
+
   return (
     <div className='main2'>
      <div className="main2-content">
