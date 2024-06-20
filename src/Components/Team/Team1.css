@@ -1,0 +1,72 @@
+.team1{
+    /* background-color: blanchedalmond; */
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 33px;
+}
+.person1{
+    height: 75%;
+    width: 22%;
+    /* background-color: blueviolet; */
+}
+.person-img{
+    background-image: url(/src//assets/team1.jpg);
+    background-position: top;
+    background-size: cover;
+    /* background-color: darkorchid; */
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.person-job{
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(174, 162, 171); */
+    height: 10%;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(150, 187, 124);
+    letter-spacing: 2px;
+    padding: 0 0 0 15px ;
+}
+.team1-person-name{
+    /* background-color: pink; */
+    height: auto;
+    padding: 0 0 0 15px;
+}
+.first-name{
+    font-size: 20px;
+    font-weight: 900;
+    /* color: white; */
+}
+.last-name{
+    font-size: 20px;
+    font-weight: 900;
+    /* color: white; */
+}
+.team1-name{
+    color: white;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+.team1-name:hover{
+    color: black;
+}
+/* .first-name:hover,.last-name:hover{
+    color: black;
+} */
+@media screen and (max-width:500px) {
+    .team1{
+        flex-direction: column;
+        height: 245vh;
+        gap: 40px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .person1{
+        width: 90%;
+    }
+}
