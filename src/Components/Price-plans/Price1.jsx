@@ -8,7 +8,7 @@ import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap';
 
-const Price = () => {
+const Price1 = () => {
 
     useGSAP(()=>{
         gsap.from('.paap',{
@@ -186,4 +186,4 @@ const Price = () => {
   )
 }
 
-export default Price
+export default Price1

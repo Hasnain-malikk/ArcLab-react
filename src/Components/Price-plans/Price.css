@@ -96,7 +96,9 @@
 .pap{
     margin: 110px 0 30px 0;
 }
-
+#mar{
+    margin: 0;
+}
 @media screen and (max-width:500px) {
     .price{
         height: 270vh;
