@@ -72,7 +72,7 @@ const Price1 = () => {
 
   return (
     <div className='price' >
-      <div className="projects-heading pap paap">
+      <div style={{marginTop:"0"}} className="projects-heading pap paap">
         <div className="projects-head">
             <div className="line"></div>
             <span className="main1">PRICING</span>
