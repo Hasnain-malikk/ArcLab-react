@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
+// import { useGSAP } from '@gsap/react';
+// import gsap from 'gsap'
 
 
 const Navbar = () => {
@@ -9,6 +11,23 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  // useGSAP(()=>{
+  //   gsap.to(".navbar",{
+  //     position:"fixed",
+  //     boxShadow: "0 0 5px 0px rgba(0,0,0,0.5)",
+  //     backgroundColor:"white",
+  //     height:"5%",
+  //     // transition:"0.3 all ease-out",
+  //     scrollTrigger:{
+  //       trigger:".stnav",
+  //       scroller:"body",
+  //       markers:true,
+  //       start:"top 30%",
+  //       // end:"top 70%"
+  //     }
+  //   })
+  // })
 
   return (
     <nav className="navbar">

@@ -24,7 +24,7 @@ const Main = () => {
         </div>
         <div className="main-heading">
           <div className="h1">Modern</div>
-          <div className="h1">Innovative</div>
+          <div className="h1 stnav">Innovative</div>
           <div className="h1">Architecture</div>
         </div>
         <div className="main-para">

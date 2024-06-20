@@ -69,6 +69,25 @@ const Card = () => {
           }
         })
       })
+
+      useGSAP(()=>{
+        gsap.to(".card",{
+          marginTop:"-123px",
+          // duration:1,
+          scrollTrigger:{
+            trigger:".card",
+            scroller:"body",
+            // markers:true,
+            start:"top 100%",
+            // end:"top 50%",
+            // pin:true
+            // scrub:2
+
+
+
+          }
+        })
+      })
       
   return (
     <div className='card'>
