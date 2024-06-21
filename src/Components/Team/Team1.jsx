@@ -3,6 +3,7 @@ import "./Team1.css"
 
 const Team1 = () => {
   return (
+    <>
     <div className='team1' >  
       <div className="person1">
         <div className="person-img">
@@ -49,6 +50,53 @@ const Team1 = () => {
         <div className="person-job">ARCHITECT</div>
       </div>
     </div>
+    <div className='team1 team2' >  
+      <div className="person1">
+        <div className="person-img4">
+          <div className="team1-person-name">
+            <div className="team1-name">
+            <div className="first-name">LORD</div>
+            <div className="last-name">VARUS</div>
+            </div>
+          </div>
+        </div>
+        <div className="person-job">ARCHITECT</div>
+      </div>
+      <div className="person1">
+      <div className="person-img5">
+          <div className="team1-person-name">
+            <div className="team1-name">
+            <div className="first-name">RAMSAY</div>
+            <div className="last-name">BOLTON</div>
+            </div>
+          </div>
+        </div>
+        <div className="person-job">ARCHITECT</div>
+      </div>
+      <div className="person1">
+      <div className="person-img6">
+          <div className="team1-person-name">
+            <div className="team1-name">
+            <div className="first-name">JORAH</div>
+            <div className="last-name">MORMONT</div>
+            </div>
+          </div>
+        </div>
+        <div className="person-job">ARCHITECT</div>
+      </div>
+      <div className="person1">
+      <div className="person-img7">
+          <div className="team1-person-name">
+            <div className="team1-name">
+            <div className="first-name">AEGON</div>
+            <div className="last-name">TARGARYEN</div>
+            </div>
+          </div>
+        </div>
+        <div className="person-job">ARCHITECT</div>
+      </div>
+    </div>
+    </>
   )
 }
 

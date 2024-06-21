@@ -51,6 +51,46 @@
     justify-content: flex-end;
     flex-direction: column;
 }
+.person-img4{
+    background-image: url(/src//assets/team5.jpg);
+    background-position: top;
+    background-size: cover;
+    /* background-color: darkorchid; */
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.person-img5{
+    background-image: url(/src//assets/team6.jpg);
+    background-position: top;
+    background-size: cover;
+    /* background-color: darkorchid; */
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.person-img6{
+    background-image: url(/src//assets/team7.jpg);
+    background-position: top;
+    background-size: cover;
+    /* background-color: darkorchid; */
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.person-img7{
+    background-image: url(/src//assets/team8.jpg);
+    background-position: top;
+    background-size: cover;
+    /* background-color: darkorchid; */
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
 .person-job{
     display: flex;
     align-items: center;
@@ -84,6 +124,9 @@
 }
 .team1-name:hover{
     color: black;
+}
+.team2{
+    margin-top: -85px;
 }
 @media screen and (max-width:500px) {
     .team1{
