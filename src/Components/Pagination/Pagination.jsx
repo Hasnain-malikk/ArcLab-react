@@ -1,9 +1,10 @@
 import React from 'react'
 import './Pagination.css'
 
-const Pagination = () => {
+const Pagination = ({id}) => {
+
   return (
-    <div className='pagination'>
+    <div className='pagination' id={id} >
       <div className="pagi">{`<`}</div>
       <div className="pagi" id='active'>1</div>
       <div className="pagi">2</div>
