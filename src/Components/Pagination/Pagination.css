@@ -1,12 +1,10 @@
 .pagination{
-    /* background-color: darkolivegreen; */
     height: 15vh;
     display: flex;
     justify-content: center;
     gap: 4px;
 }
 .pagi{
-    /* background-color: pink; */
     height: 40px;
     width: 40px;
     border-radius: 50%;
