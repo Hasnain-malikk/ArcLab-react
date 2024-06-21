@@ -9,6 +9,7 @@ import Project6 from '/ReactJs/arclab-react/src/Components/Projects/Project6'
 import Project7 from '../Components/Projects/Project7'
 import Project8 from '../Components/Projects/Project8'
 import Project9 from '../Components/Projects/Project9'
+import Pagination from '../Components/Pagination/Pagination'
 
 
 const Project = () => {
@@ -24,6 +25,7 @@ const Project = () => {
       <Project7/>
       <Project8/>
       <Project9/>
+      <Pagination/>
     </div>
   )
 }

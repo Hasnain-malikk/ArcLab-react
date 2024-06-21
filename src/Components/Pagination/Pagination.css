@@ -1,0 +1,23 @@
+.pagination{
+    /* background-color: darkolivegreen; */
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+.pagi{
+    /* background-color: pink; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #96BB7C;
+    border: 1px solid rgba(211, 211, 211, 0.644);
+    cursor: pointer;
+}
+#active{
+    background-color: #96BB7C;
+    color: white;
+}
