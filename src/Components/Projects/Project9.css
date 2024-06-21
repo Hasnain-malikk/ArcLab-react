@@ -1,0 +1,117 @@
+.project9{
+    /* background-color: coral; */
+    height: 115vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px 0;
+}
+.project9-pic{
+    /* background-color: yellow; */
+    height: 90%;
+    width: 40%;
+}
+.project9-pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.project9-text{
+    /* background-color: yellowgreen; */
+    height: 75%;
+    width: 44%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative; 
+}
+
+.project9-bar{
+    margin: 27px -145px;
+    content: '';
+    width: 150px;
+    height: 1px;
+    background: #000000;
+    transition: width 0.3s ease; 
+}
+
+.project9-text:hover .project9-bar {
+    width: 200px;
+}
+
+.project9-name{
+    cursor: pointer;
+    /* background-color: aquamarine; */
+    height: 7%;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.project9-heading{
+    cursor: pointer;
+    /* background-color: darkred; */
+    height: 15%;
+    font-size: 60px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.project9-para{
+    margin: 6px 0;
+    cursor: pointer;
+    /* background-color: darkslateblue; */
+    height: 25%;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+}
+
+.project9-portfolio{
+    cursor: pointer;
+    /* background-color: gold; */
+    height: 7%;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(150, 187, 124);
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:500px) {
+    .project9{
+        flex-direction: column;
+    }
+    .project9-pic{
+        width: 90%;
+    }
+    .project9-text{
+        height: 70%;
+        width: 90%;
+        justify-content: flex-start;
+        margin-bottom: -50px;
+    }
+    .project9-name{
+        height: 10%;
+        margin-top: 50px;
+    }
+    .project9-heading{
+        height: 13%;
+        font-size: 35px;
+    }
+    .project9-para{
+        height: 30%;
+    }
+    .project9-portfolio{
+        height: 11%;
+    }
+    .project9-bar{
+        display: none;
+    }
+}
