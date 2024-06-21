@@ -47,6 +47,10 @@
     height: 20%;
     /* background-color: wheat; */
 }
+#id{
+    display: none;
+    /* background-color: pink; */
+}
 @media screen and (max-width:500px) {
     .blog-card-heading{
         width: 60%;

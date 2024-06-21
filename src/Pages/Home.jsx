@@ -31,7 +31,7 @@ const Home = () => {
       <Counter/>
       <Projects/>
       <Price/>
-      <RecentBlog/>
+      <RecentBlog id='empty' />
     
     </div>
   )

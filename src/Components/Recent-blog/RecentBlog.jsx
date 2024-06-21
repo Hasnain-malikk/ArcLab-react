@@ -9,8 +9,8 @@ import img4 from "/ReactJs/arclab-react/src/assets/img-4.webp"
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap';
 
-const RecentBlog = () => {
-
+const RecentBlog = ({id}) => {
+  
   useGSAP(()=>{
     gsap.from('.rb',{
       y:50,
@@ -88,7 +88,7 @@ const RecentBlog = () => {
 
   return (
     <div className='recent-blog'>
-      <div className="projects-heading rb">
+      <div className="projects-heading rb" id={id} >
         <div className="projects-head">
             <div className="line"></div>
             <span className="main1">Blog</span>

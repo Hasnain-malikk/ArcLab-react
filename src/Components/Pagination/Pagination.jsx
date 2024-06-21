@@ -5,7 +5,7 @@ const Pagination = () => {
   return (
     <div className='pagination'>
       <div className="pagi">{`<`}</div>
-      <div className="pagi" id='active'  >1</div>
+      <div className="pagi" id='active'>1</div>
       <div className="pagi">2</div>
       <div className="pagi">3</div>
       <div className="pagi">4</div>
