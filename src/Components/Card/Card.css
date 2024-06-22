@@ -11,7 +11,6 @@
     flex-direction: column;
 }
 .card-pic{
-    /* background-color: brown; */
     height: 28%;
     display: flex;
     justify-content: center;
