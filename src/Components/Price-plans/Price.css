@@ -1,6 +1,7 @@
 .price{
     background-color: #FCFCFC;
     height: 140vh;
+
 }
 .price-card{
     background-color: #FCFCFC;
@@ -94,7 +95,8 @@
     margin-top: 33px;
 }
 .pap{
-    margin: 110px 0 30px 0;
+    margin: 80px 0 30px 0;
+    padding-top: 45px;
 }
 #mar{
     margin: 0;
@@ -102,6 +104,8 @@
 @media screen and (max-width:500px) {
     .price{
         height: 270vh;
+        overflow: hidden;
+        padding-bottom: 100px;
     }
     .price-card{
         flex-direction: column;
@@ -124,6 +128,11 @@
     }
     .gs-btn{
         height: 80%;
+    }
+    .pap{
+        padding-top: 0;
+        padding-right: 15px;
+        margin-top: 40px;
     }
     
 }
