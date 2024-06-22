@@ -1,0 +1,85 @@
+.contact-address{
+    /* background-color: darkcyan; */
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+}
+.c-address{
+    /* background-color: crimson; */
+    height: 80%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.c-phone{
+    /* background-color: cornsilk; */
+    height: 80%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.c-email{
+    /* background-color: darkorange; */
+    height: 80%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.c-pic{
+    /* background-color: darkgrey; */
+    height: 20%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-head{
+    /* background-color: darkgoldenrod; */
+    height: 15%;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-para{
+    /* background-color: fuchsia; */
+    height: 35%;
+    width: 80%;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(102, 102, 102);
+    text-align: center;
+    line-height: 29px;
+}
+#map-icon{
+    height: 22px;
+    color: #96BB7C;
+}
+@media screen and (max-width:500px) {
+    .contact-address{
+        flex-direction: column;
+        height: 60vh;
+    }
+    .c-address{
+        width: 75%;
+    }
+    .c-phone{
+        width: 75%;
+        border: none;
+    }
+    .c-email{
+        width: 75%;
+    }
+}
