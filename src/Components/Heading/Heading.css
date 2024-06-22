@@ -1,0 +1,15 @@
+.contact-headingg{
+    /* background-color: cyan; */
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 10px 260px 65px 260px;
+}
+@media screen and (max-width:500px) {
+    .contact-headingg{
+        padding: 10px 15px 50px 15px;
+        font-size: 15px;
+    }
+    
+}
