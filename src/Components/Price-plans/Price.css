@@ -105,7 +105,7 @@
     .price{
         height: 270vh;
         overflow: hidden;
-        padding-bottom: 100px;
+        padding-bottom: 25px;
     }
     .price-card{
         flex-direction: column;
